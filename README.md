@@ -60,8 +60,8 @@ The "coins" proposal aligns the displayed value with the integral nature of Bitc
 
 In essence this BIP attempts to simplify small amount representations, it only replaces confusing protocol origin explainations with intuition. By redefining "coins" as the smallest indivisible unit, this BIP embraces reliance on decimal fractions and reinforces stacking and coin memetics, offering a clearer, more intuitive, and ultimately more durable solution.
 
-**Backward Compatibility
-**No consensus rules are altered, and on-chain data remains unchanged. Differences arise solely in display formats:
+**Backward Compatibility**
+No consensus rules are altered, and on-chain data remains unchanged. Differences arise solely in display formats:
 
 For Developers:
 Update GUIs, APIs, and documentation to present values as "coins". Remove references to sats or satoshis.
@@ -79,24 +79,23 @@ Use alerts or confirmations in applications if input values appear unexpectedly 
 
 Over time, confusion will subside, leaving a simpler, more intuitive understanding of Bitcoin’s integral values.
 
-**Reference Implementation
-**Some wallets, such as Coinward, showcase integer-only displays, demonstrating the feasibility of this approach. Transitional features—like showing both old and new formats side-by-side—can help smooth the transition.
+**Reference Implementation**
+Some wallets, such as Coinward, showcase integer-only displays, demonstrating the feasibility of this approach. Transitional features—like showing both old and new formats side-by-side—can help smooth the transition.
 
-**Test Vectors
-**Old: 1.00000000 BTC → New: 100,000,000 coins (or ¢100000000)
+**Test Vectors**
+Old: 1.00000000 BTC → New: 100,000,000 coins (or ¢100000000)
 Old: 0.00010000 BTC → New: 10,000 coins (or ¢10000)
 Old: 0.00500000 BTC → New: 500,000 coins (or ¢500000)
 
 All formerly fractional representations now directly correspond to whole-number multiples of the smallest unit.
 
-**Implementation Timeline
-**Phase 1 (1-3 months): Introduce the concept, provide dual displays and educational materials.
+**Implementation Timeline**
+Phase 1 (1-3 months): Introduce the concept, provide dual displays and educational materials.
 
 Phase 2 (3-6 months): Prominent services adopt integer-only displays by default.
 
 Phase 3 (6+ months): Integer representation becomes standard. Documentation and user guides no longer reference decimal-based formats.
-**Conclusion
-**
+**Conclusion**
 Redefining the "coin" unit as the smallest indivisible unit and removing decimal-based representations simplifies comprehension and aligns displayed values with the protocol’s integral accounting. While a transition period may be necessary, the long-term benefits include clearer communication, reduced confusion, and a more accurate understanding of Bitcoin’s fundamental design.
 
 **Copyright**
