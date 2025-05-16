@@ -4,7 +4,7 @@ Redefinition of the Base Denomination to Coin
 
 **Abstract**
 
-This BIP proposes to reinforce the commonly recognized "bitcoin" unit so that what was previously known as the smallest indivisible unit becomes the primary reference unit. Under this proposal, one bitcoin is defined as that smallest unit, eliminating the need for decimal places. By making the integral unit the standard measure, this BIP aims to simplify user comprehension, reduce confusion, and align on-chain values directly with their displayed representation.
+This BIP proposes to reinforce the commonly recognized "bitcoin" unit so that what was previously known as the smallest indivisible unit becomes the primary reference unit. Under this proposal, one coin is defined as that smallest unit, eliminating the need for decimal places. By making the integral unit the standard measure, this BIP aims to simplify user comprehension, reduce confusion, and align on-chain values directly with their displayed representation.
 
 **Motivation**
 
