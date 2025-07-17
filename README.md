@@ -4,7 +4,7 @@ Redefinition of the Base Denomination to Coin
 
 **Abstract**
 
-This BIP proposes to reinforce the commonly recognized "bitcoin" unit so that what was previously known as the smallest indivisible unit becomes the primary reference unit. Under this proposal, one coin is defined as that smallest unit, eliminating the need for decimal places. By making the integral unit the standard measure, this BIP aims to simplify user comprehension, reduce confusion, and align on-chain values directly with their displayed representation.
+This BIP proposes to reinforce the commonly recognized "bitcoin" unit so that what was previously known as the smallest indivisible unit becomes the primary reference unit. Under this proposal, one coin is defined as that smallest unit, eliminating the need for decimal places. By making the integral unit the standard measure, this BIP aims to simplify user comprehension, reduce confusion, benefit from existing unicode symbols, increase associations with monetary value, and align on-chain values directly with their displayed representation.
 
 **Motivation**
 
@@ -29,6 +29,7 @@ All references, interfaces, and documentation SHOULD refer to the base integer u
 
 Display and Formatting:
 Applications SHOULD present values as whole integers without decimals.
+Adopting the "¢" symbol for coins reinforces monetary value and gives the subunits the "centlike" association originally intended for the sats/satoshis in a more intuitive way.
 
 Example:
 Old display: 0.00010000 BTC
@@ -36,7 +37,7 @@ New display: 10000 coins (or ¢10000)
 
 Conversion:
 Ledger and consensus rules remain unchanged.
-Implementations adopting this standard MUST multiply previously displayed BTC amounts by 100,000,000 to determine the new integer representation.
+Implementations adopting this standard MUST multiply previously displayed BTC amounts by 100,000,000 to determine the new representation in coins.
 
 **Rationale**
 
@@ -47,7 +48,7 @@ Protocol Alignment:
 The Bitcoin protocol inherently counts discrete units. Defining coins as the smallest unit aligns user perception with Bitcoin’s actual integral design.
 
 Educational Clarity:
-Presenting integers ensures newcomers do not mistakenly assume that Bitcoin’s nature is decimal-based. It conveys Bitcoin’s true design from the start.
+Presenting values in coins ensures newcomers do not mistakenly assume that Bitcoin’s too expensive or unattainable for them. This presentation defeats unit bias for newcomers from the start. 
 
 Benefits of this BIP:
 
@@ -55,10 +56,10 @@ Benefits of this BIP:
 Adopting the smallest unit as the primary measure ensures a consistent standard that can scale smoothly as Bitcoin adoption grows.
 
 2. Persistent Mindset:
-Using "coins" retains a layered decimal approach, allowing users to continue thinking in terms of stacking a subunit to earn bitcoin (BTC and coins). This reduces complexity.
+Using "coins" retains a layered decimal approach, allowing users to continue thinking in terms of stacking a subunit to earn bitcoin (collect 100,000,0000 coins for a "whole bitcoin"). This reduces complexity.
 
 3. Flexible User Experience:
-Users can toggle between BTC for large amounts and coins for small amounts. Given existing heuristics, coins creates a unified view of value, it unifies the user experience.
+Users can toggle between bitcoin(₿) for large amounts and coins(¢) for small amounts. Given existing heuristics, coins creates a unified view of value, it unifies the user experience.
 
 4. Alignment with the Protocol’s Nature:
 The "coins" proposal aligns the displayed value with the integral nature of Bitcoin’s ledger while continuing to provide fractional units. Using "coins" embraces the fundamental integer-based accounting that Bitcoin employs.
@@ -91,9 +92,9 @@ Some wallets, such as Coinward, showcase integer-only displays, demonstrating th
 
 **Test Vectors**
 
-Old: 1.00000000 BTC → New: 100,000,000 coins (or ¢100000000)
-Old: 0.00010000 BTC → New: 10,000 coins (or ¢10000)
-Old: 0.00500000 BTC → New: 500,000 coins (or ¢500000)
+Old: 1.00000000 BTC → New: 100,000,000 coins (or 100000000¢)
+Old: 0.00010000 BTC → New: 10,000 coins (or 10000¢)
+Old: 0.00500000 BTC → New: 500,000 coins (or 500000¢)
 
 All formerly fractional representations now directly correspond to whole-number multiples of the smallest unit.
 
