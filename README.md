@@ -58,7 +58,7 @@ Benefits of this BIP:
 Adopting the smallest unit as the primary measure ensures a consistent standard that can scale smoothly as Bitcoin adoption grows.
 
 2. Persistent Mindset:
-Using "coins" retains a layered decimal approach, allowing users to continue thinking in terms of stacking a subunit to earn bitcoin (collect 100,000,0000 coins for a "whole bitcoin"). This reduces complexity.
+Using "coins" retains a layered decimal approach, allowing users to continue thinking in terms of stacking a subunit to earn bitcoin (collect 100,000,0000 coins for a "whole bitcoin"). This builds on the existing understanding while reducing friction from unit bias.
 
 3. Flexible User Experience:
 Users can toggle between bitcoin(₿) for large amounts and coins(¢) for small amounts. Given existing heuristics, coins creates a unified view of value, it unifies the user experience.
