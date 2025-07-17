@@ -31,7 +31,7 @@ All references, interfaces, and documentation SHOULD refer to the base integer u
 
 Display and Formatting:
 Applications SHOULD present values as whole integers without decimals.
-Adopting the "¢" symbol for coins reinforces monetary value and gives the subunits the _centlike_ association originally intended for the sats/satoshis in a more intuitive way.
+Adopting the "¢" symbol for coins reinforces monetary value and gives bitcoin subunits the _centlike_ association originally intended for satoshis/sats.
 
 Example:
 Old display: 0.00010000 BTC
