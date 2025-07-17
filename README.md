@@ -10,7 +10,7 @@ This BIP proposes redefining the commonly recognized "satoshi" unit so that bitc
 
 Bitcoin's current terminology centers on "BTC" as the primary unit. While "satoshis/sats" offer integer simplicity for small transactions, they remain secondary and require explanation to newcomers to avoid confusion.
 
-Replacing "satoshi/sats" with "coins" we unify how we talk about Bitcoin, and make it easier for users to intuitively grasp accumulation, scarcity, and everyday utility. Newcomers and even veterans juggle terms like "BTC," "sats," and decimals, complicating education, adoption, and seamless integration into finance tools.
+By replacing "satoshi/sats" with "coins" we unify how we talk about Bitcoin, and make it easier for users to intuitively grasp accumulation, scarcity, and everyday utility. Newcomers and even veterans juggle terms like "BTC," "sats," and decimals, complicating education, adoption, and seamless integration into finance tools.
 
 By establishing "coin" as the base unit (where 1 BTC = 100,000,000 coins), this BIP positions "coin" as the main way to discuss and display Bitcoin values. This replaces decimal formats with straightforward integer expressions across wallets, exchanges, and media—fostering a consistent understanding. The Coin Standard BIP simplifies formatting, enhances memetic appeal for viral adoption, and reinforces Bitcoin's finite supply of 2.1 quadrillion coins, or 21 million bitcoins, all without altering the protocol.
 
