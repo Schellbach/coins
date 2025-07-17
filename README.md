@@ -95,7 +95,9 @@ Some wallets, such as Coinward, showcase integer-only displays, demonstrating th
 **Test Vectors**
 
 Old: 1.00000000 BTC → New: 100,000,000¢ (or 100m coins)
+
 Old: 0.00010000 BTC → New: 10,000¢ (or 10k coins)
+
 Old: 0.00500000 BTC → New: 500,000¢  (or 500k coins)
 
 All formerly fractional representations now directly correspond to whole-number multiples of the smallest unit.
