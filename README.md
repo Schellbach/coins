@@ -79,7 +79,7 @@ For Users:
 The actual value of holdings does not change. Transitional measures, such as dual displays or explanatory tooltips, can ease the adjustment period.
 
 **Security Considerations**
-A short-term risk of confusion exists as users adapt to the new representation. Users accustomed to satoshis may misinterpret initial displays. To mitigate this:
+A short-term risk of confusion exists as users adapt to the new representation. Users accustomed to satoshis may misinterpret initial displays. There may be confusion between 1 bitcoin and 1 coin at the beginning. To mitigate this:
 Offer dual displays and tooltips during the transition.
 
 Provide clear educational materials and coordinated messaging.
