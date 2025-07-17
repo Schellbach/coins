@@ -4,7 +4,7 @@ Redefinition of the Base Denomination to Coin
 
 **Abstract**
 
-This BIP proposes to reinforce bitcoin's recognition as monetary value, so that what was previously known as the smallest indivisible unit becomes the primary reference unit. Under this proposal, one coin is defined as that smallest unit, largely eliminating the need for decimal places while appealing to common intuition. By making the integral unit the standard measure, this BIP aims to simplify user comprehension, reduce confusion, benefit from existing unicode symbols, increase associations with monetary value, and align on-chain values directly with their displayed representation.
+This BIP proposes redefining the commonly recognized "satoshi" unit so that bitcoin's base unit becomes the primary reference unit and reinforces monetary value associations. Under this proposal, one coin is defined as that smallest unit, largely eliminating the need for decimal places while appealing to common intuition. By making the integral unit the standard measure, this BIP aims to simplify user comprehension, reduce confusion, better leverage existing unicode symbols, and align on-chain values directly with their displayed representation.
 
 **Motivation**
 
