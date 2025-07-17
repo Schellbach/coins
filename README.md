@@ -64,7 +64,7 @@ Using "coins" retains a layered decimal approach, allowing users to continue thi
 Users can toggle between bitcoin(₿) for large amounts and coins(¢) for small amounts. Given existing heuristics, coins creates a unified view of value, it unifies the user experience.
 
 4. Alignment with the Protocol’s Nature:
-The "coins" proposal aligns the displayed value with the integral nature of Bitcoin’s ledger while continuing to provide fractional units. Using "coins" embraces the fundamental integer-based accounting that Bitcoin employs.
+The Coin Standard aligns the displayed value with the integral nature of Bitcoin’s ledger while continuing to provide fractional units. Using "coins" embraces the fundamental integer-based accounting that Bitcoin employs.
 
 In essence this BIP attempts to simplify small amount representations, it replaces confusing protocol origin explainations with intuition. By redefining "coins" as the smallest indivisible unit, this BIP embraces existing knowledge of subunits and reinforces stacking and coin memetics, offering a clearer, more intuitive, and ultimately more durable solution.
 
