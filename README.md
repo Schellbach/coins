@@ -35,7 +35,7 @@ Adopting the "¢" symbol for coins reinforces monetary value and gives bitcoin s
 
 Example:
 Old display: 0.00010000 BTC
-New display: 10000 coins (or ¢10000)
+New display: 10000 coins (or 10000¢)
 
 Conversion:
 Ledger and consensus rules remain unchanged.
